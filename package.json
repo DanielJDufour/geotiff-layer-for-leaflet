@@ -1,6 +1,6 @@
 {
   "name": "geotiff-layer-for-leaflet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Display GeoTIFFs on your Leaflet Map",
   "main": "geotiff-layer-for-leaflet.bundle.js",
   "scripts": {
