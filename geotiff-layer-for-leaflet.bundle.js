@@ -25,7 +25,7 @@ module.exports = L.GridLayer.extend({
             var image = geotiff.getImage();
             this._image = image;
 
-            var no_data_value = parseInt(image.fileDirectory.GDAL_NODATA);
+            var no_data_value = parseFloat(image.fileDirectory.GDAL_NODATA);
             this.no_data_value = no_data_value;
 
             console.log("starting readRaster");
